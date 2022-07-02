@@ -1,16 +1,16 @@
 #include <stdio.h>
 /**
- *
- *  * main - Entry point
- *
- *   *
- *
- *    * Return: Always 0 (Success)
- *
- *     */
+ * main - Entry Point
+ * My hello, printf task
+ * Return: 0 (success)
+ */
 
-	int main(void)
+int main(void)
+
 {
-	printf("Programming is like building a multilingual puzzle, \n");
-	return (0);
+
+		printf("with proper grammar, but the outcome is a piece of art,\n");
+
+		return (0);
+
 }
