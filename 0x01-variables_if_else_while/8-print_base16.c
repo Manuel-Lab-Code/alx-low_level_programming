@@ -6,13 +6,21 @@
  **/
 int main(void)
 {
-	int i;
-	char x;
+	int i = '0';
+	int a_to_f = 'a';
 
-	for (i = 0; 1 < 10; i++)
-		putchar(i + '0');
-	for (x = 'a'; x <= 'f'; x++)
-		putchar(x);
+	while (i <= '9')
+	{
+		putchar(i);
+		i++;
+	}
+	while (a_to_f <= 'f')
+	{
+		putchar(a_to_f);
+		a_to_f++;
+	}
+
 	putchar('\n');
+
 	return (0);
 }
