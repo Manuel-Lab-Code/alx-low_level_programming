@@ -7,17 +7,19 @@
 
 int main(void)
 {
-	int c;
+	int n = '0';
 
-	for (c = '0'; c <= '9'; c++)
+	while (n <= '9')
 	{
-		putchar(c);
-		if (c != '9')
+		putchar(n);
+		if (n != '9')
 		{
 			putchar(',');
-			putchar(';');
+			putchar(' ');
 		}
+		n++;
 	}
 	putchar('\n');
+
 	return (0);
 }
