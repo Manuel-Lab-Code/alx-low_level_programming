@@ -1,4 +1,4 @@
-#include <stdio.h>
+#include "main.h"
 /**
  * main - prints putcher
  *
@@ -8,5 +8,5 @@ int main(void)
 {
 	_putchar('_putchar''\n');
 
-	return (0)
+	return (0);
 }
