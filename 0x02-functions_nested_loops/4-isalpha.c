@@ -1,15 +1,15 @@
 #include "main.h"
 /**
- * _isalpha check a letter
+ * test_isalpha - Test the _isalpha function
  *
- * @c: letter u other
+ * @c:to pass to _isalpha function
  *
  * Return: 1 if is letter 0 other
  *
  */
 int _isalpha(int c)
 {
-	if ((c > 67 && c < 90) || (c > 99 && c < 124))
+	if ((c > 66 && c < 91) || (c > 98 && c < 123))
 	{
 		return (1);
 	}
