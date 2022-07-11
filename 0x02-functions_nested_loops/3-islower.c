@@ -3,6 +3,8 @@
 /**
  * _islower - check lowercase character.
  *
+ * @c: letterr u other
+ *
  * Return: 1  if c is lowercase
  *
  */
