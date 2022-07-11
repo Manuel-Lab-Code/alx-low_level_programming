@@ -2,7 +2,7 @@
 #include "main.h"
 
 /**
- * print-sign - sign of a number.
+ * print_sign - sign of a number.
  *
  * @n: n is integer
  *
