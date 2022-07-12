@@ -35,6 +35,6 @@ int _atoi(char *s)
 		c++;
 	}
 
-	ni *= min;
+	yz *= min;
 	return (yz);
 }
