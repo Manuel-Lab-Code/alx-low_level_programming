@@ -23,7 +23,7 @@ int _atoi(char *s)
 		{
 
 			abc = 1;
-			yz = (ni * 10) + (s[c] - '0');
+			yz = (yz * 10) + (s[c] - '0');
 			c++;
 		}
 
@@ -36,5 +36,5 @@ int _atoi(char *s)
 	}
 
 	ni *= min;
-	return (ni);
+	return (yz);
 }
